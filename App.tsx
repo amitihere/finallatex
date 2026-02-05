@@ -87,7 +87,7 @@ function App() {
             style={styles.input}
             value={input}
             onChangeText={setInput}
-            placeholder="$\\frac{a}{b}$"
+            placeholder="Enter your Latex Expression"
             placeholderTextColor="#999"
             multiline
           />
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    backgroundColor: '#fff',
   },
   header: {
     alignItems: 'center',
