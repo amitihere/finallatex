@@ -9,14 +9,10 @@ A native Android module that renders LaTeX mathematical expressions using **jlat
 
 ### Component Structure
 
-React Native (TypeScript)
-       ↓
-LaTeXRenderer component
-       ↓
-LaTeXViewManager (ViewManager)
-       ↓
-LaTeXView (Custom Android View)
-       ↓
+React Native (TypeScript)->
+LaTeXRenderer component->
+LaTeXViewManager (ViewManager)->
+LaTeXView (Custom Android View)->
 JLatexMathDrawable → Native Rendering
 
 ### Data Flow
